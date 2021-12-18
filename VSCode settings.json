@@ -31,5 +31,9 @@
     "editor.suggest.insertMode": "replace",
     "editor.semanticHighlighting.enabled": true
   },
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 1
 }
