@@ -1,0 +1,8 @@
+// Thank you WesBos <3 https://twitter.com/wesbos/status/1318616504112480256
+{
+  "useState snippet": {
+    "prefix": "rus",
+    "body": "const [${1}, set${1/(^[a-zA-Z])(.*)/${1:/upcase}${2}/}] = useState(${2:default${1/(^[a-zA-Z])(.*)/${1:/upcase}${2}/}});",
+    "description": "use state but it camel cases"
+  }
+}

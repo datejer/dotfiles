@@ -1,0 +1,35 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "discord.workspaceElapsedTime": true,
+  "workbench.colorTheme": "SynthWave '84",
+  "workbench.iconTheme": "material-icon-theme",
+  "sync.gist": "5a8a61574f073d893d25c7d930b83a12",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.shellArgs.windows": ["-NoLogo"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.useTabs": false,
+  "editor.tabSize": 2,
+  "[cpp]": {
+    "editor.wordBasedSuggestions": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "editor.inlineSuggest.enabled": true
+}

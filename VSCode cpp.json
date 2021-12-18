@@ -1,0 +1,22 @@
+{
+  "init new main": {
+    "prefix": "init",
+    "body": [
+      "#include <iostream>",
+      "",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "\t${1:cout << \"Hello World!\";}",
+      "\t",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "init"
+  },
+  "prompt": {
+    "prefix": "prompt",
+    "body": ["cout << \"$1\";", "cin >> $2;"],
+    "description": "prompt"
+  }
+}
